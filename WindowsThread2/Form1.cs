@@ -34,7 +34,7 @@ namespace WindowsThread2
         }
         private void writeOnListBox()
         {                  
-                for (int i = 1; i <= 1000; i++)
+                for (int i = 1; i <= 10000; i++)
                 {
                     listBoxAusgabe.Invoke(delVar, new Object[] { i, "Eine Meldung" });
                     //updateListBox(i,"Eine Meldung");
